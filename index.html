@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="slider" id="yak1">
+            <div class="navigation">
+                <img src="Developed-IT.png">
+                <form action="" method="POST" class="nav-inp">
+                    <a class="nav-inp1" href="#yak4">Контакты</a>
+                </form>
+                <form action="" method="POST" class="nav-inp">
+                    <a class="nav-inp1" href="#yak3">Персонал</a>
+                </form>
+                <form action="" method="POST" class="nav-inp">
+                    <a class="nav-inp1" href="#yak2">Сервис</a>
+                </form>
+                <form action="" method="POST" class="nav-inp">
+                    <a class="nav-inp1" href="#yak1">Главная</a>
+                </form>
+                
+            </div>
+            <div class="item">
+                <img src="img/slide1.jpg" alt="Первый слайд">
+                <div class="slideText"><h class="h1">Хорошие идеи приходят первыми!</h></div>
+            </div>
+
+            <div class="item">
+                <img src="img/slide2.jpg" alt="Второй слайд">
+                <div class="slideText"><h class="h1">Хорошие идеи приходят первыми!</h></div>
+            </div>
+
+            <div class="item">
+                <img src="img/slide3.jpg" alt="Третий слайд">
+                <div class="slideText"><h class="h1">Хорошие идеи приходят первыми!</h></div>
+            </div>
+
+            <a class="prev" onclick="minusSlide()">&#10094;</a>
+            <a class="next" onclick="plusSlide()">&#10095;</a>
+        </div>
+        <br>
+
+        <div class="slider-dots">
+            <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+            <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+            <span class="slider-dots_item" onclick="currentSlide(3)"></span> 
+        </div>
+            
+        <script src="script.js"></script>	
+    </header>
+    <section>
+        <div class="red" id="yak2">
+            <img src="Layer 3.png" class="red-fon">
+            <h class="red-our">Наши услуги</h>
+            <h class="red-dev">Developed-IT - лидер среди разработчиков программного обеспечения!</h>
+            <form class="red-coun1">
+                <img src="countur.png" class="red-img1">
+                <h class="red-idea">Идея</h>
+                <h class="red-p1">Находим середину между вашими идеями и реальными возможностями!</h>
+            </form>
+            <form class="red-coun2">
+                <img src="countur1.png" class="red-img2">
+                <h class="red-c2">Дизайн</h>
+                <h class="red-p2">Находим уникальные дизайнерские решения и предлагаем их вам!</h>
+            </form>
+            <form class="red-coun3">
+                <img src="countur2.png" class="red-img3">
+                <h class="red-c3">Разработка</h>
+                <h class="red-p3">Выполняем работы по разработке архитектуры программного обеспечения!</h>
+            </form>
+            <form class="red-coun4">
+                <img src="countur3.png" class="red-img4">
+                <h class="red-c4">Запуск</h>
+                <h class="red-p4">Устанавливаем и запускаем готовое программное обеспечение!</h>
+            </form>
+        </div>
+        <div class="Violet" id="yak3">
+            <img src="2Plane.png" class="violet-fon">
+            <h class="violet-our">НАШИ СОТРУДНИКИ</h>
+            <div class="vio-kvadrat"></div>
+            <div class="vio-zel">ВСТРЕЧАЙТЕ НАС</div>
+            <form class="vio-coun1">
+                <img src="R.png" class="vio-src1">
+                <h class="vio-imya1">АНТОН ПЕТРОВ</h>
+                <div class="png4">
+                    <img src="F.png">
+                    <img src="G.png">
+                    <img src="T.png">
+                    <img src="I.png">
+                </div>
+            </form>
+            <form class="vio-coun2">
+                <img src="R2.png" class="vio-src2">
+                <h class="vio-imya2">КИРИЛЛ ДОНЦЕВ</h>
+                <div class="png4">
+                    <img src="facebook1.png">
+                    <img src="g+1.png">
+                    <img src="twetter1.png">
+                    <img src="linkedin.png">
+                </div>
+            </form>
+            <form class="vio-coun3">
+                <img src="R.png" class="vio-src3">
+                <h class="vio-imya3">ИЛЬЯ БОНЦЕВ</h>
+                <div class="png4">
+                    <img src="F.png">
+                    <img src="G.png">
+                    <img src="T.png">
+                    <img src="I.png">
+                </div>
+            </form>
+            <form class="vio-coun4">
+                <img src="R.png" class="vio-src4">
+                <h class="vio-imya4">ДАНИЛ СТАМОВ</h>
+                <div class="png4">
+                    <img src="F.png">
+                    <img src="G.png">
+                    <img src="T.png">
+                    <img src="I.png">
+                </div>
+            </form>
+        </div>
+        <div class="contact" id="yak4">
+            <img src="Layer 24.png" class="cont-fon">
+            <h class="cont-zagol">КОНТАКТЫ</h>
+            <h class="cont-i">Вы можете найти нас в нашем офисе или связаться с нами по электронной почте!</h>
+            <h class="cont-addr">Наш адрес:</h>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d312779.9431310756!2d20.781016711291045!3d52.232606289062204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1578224179189!5m2!1sru!2sru" width="600" height="300" frameborder="0" style="border:0;" allowfullscreen="" class="cont-cart"></iframe>
+            <form class="cont-email">
+                <h class="cont-svaz">Обратная связь:</h>
+                <input type="text" class="cont-t1" placeholder="Имя"/>
+                <input type="text" class="cont-t2" placeholder="Фамилия"/>
+                <p><textarea name="comment" class="cont-t3" placeholder="Сообщение"></textarea></p>
+                <input type="submit" class="cont-t4"/>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
